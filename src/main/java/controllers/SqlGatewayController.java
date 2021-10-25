@@ -35,7 +35,7 @@ public class SqlGatewayController extends HttpServlet {
         try {
             // create a statement
             Statement statement = connection.createStatement();
-            if(sqlStatement==null) sqlStatement="select * from nguoidung";
+            if(sqlStatement==null) sqlStatement="select * from users";
             // parse the SQL string
             sqlStatement = sqlStatement.trim();
             if (sqlStatement.length() >= 6) {
