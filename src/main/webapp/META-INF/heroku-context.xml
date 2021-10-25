@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="">
+    <Resource name="jdbc/dcgdnbg0pd55r6" auth="Container"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://ec2-34-239-55-93.compute-1.amazonaws.com:5432/dcgdnbg0pd55r6?ssl=true?ssl=true&amp;sslmode=require"
+              username="xuudquuwfufjwb" password="06161120d2ebdbd408522471dbe44b4fe4758930455a439c4571da0fe2c8a7de"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              logAbandoned="true" removeAbandoned="true"
+              removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
