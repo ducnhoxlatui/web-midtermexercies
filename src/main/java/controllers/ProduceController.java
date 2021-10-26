@@ -16,6 +16,8 @@ public class ProduceController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
         HttpSession session = request.getSession();
         String path = getServletContext().getRealPath("/WEB-INF/products.txt");
         ArrayList<Product> products = ProductIO.getProducts(path);

@@ -15,6 +15,8 @@ public class DownloadController  extends HttpServlet {
                       HttpServletResponse response)
             throws IOException, ServletException {
 
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
         // get current action
         String action = request.getParameter("action");
         if (action == null) {

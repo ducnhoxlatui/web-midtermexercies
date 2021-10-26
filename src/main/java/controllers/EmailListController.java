@@ -13,6 +13,8 @@ public class EmailListController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
         String url = "/view/email/indexmail.jsp";
         String action = request.getParameter("action");
         if (action == null) {

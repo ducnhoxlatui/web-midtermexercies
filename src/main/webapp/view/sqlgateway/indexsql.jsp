@@ -1,6 +1,7 @@
 <%@include file="/common/taglib.jsp" %>
 <c:url value="/sqlgateway" var="sql"/>
 <c:url value="/home" var="home"/>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
